@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 15px;
+}
+
+.nav img {
+    cursor: pointer;
+}
+
+.nav > div {
+    width: 30%;
+}
+
+#menu__list span {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#menu__list span:hover {
+    color: #fff;
+}

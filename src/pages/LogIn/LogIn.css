@@ -1,0 +1,38 @@
+#formContainer  {
+    margin-top: 50px;
+}
+
+#formContainer h1 {
+    margin: 20px 0;
+}
+
+#formContainer p {
+    margin: 20px 0;
+}
+
+#form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#form > div {
+  border-bottom: 2px solid gray;
+  padding: 10px;
+  width: 40%;
+  margin: 20px 10px;
+}
+
+#form input {
+  background-color: #000;
+  border: none;
+}
+
+#form span {
+  background-color: #000;
+  border: 0;
+}
+
+
