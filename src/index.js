@@ -9,6 +9,9 @@ import SignUp from './pages/SignUp/SignUp';
 import LogIn from './pages/LogIn/LogIn';
 import Home from './pages/Home/Home';
 import Pricing from './pages/Pricing/Pricing';
+import Blog from './pages/Blog/Blog';
+import About from './pages/About/About';
+import UseCases from './pages/Use_Cases/UseCases';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,10 +20,13 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path={ '/' } element={ <App /> }>
+          <Route index element={ <Home /> } />
           <Route path='/signup' element={ <SignUp /> } />
           <Route path='/login' element={ <LogIn /> } />
-          <Route index element={ <Home /> } />
           <Route path='/pricing' element={ <Pricing /> } />
+          <Route path='/blog' element={ <Blog /> } />
+          <Route path='/about' element={ <About /> } />
+          <Route path='/use-cases' element={ <UseCases /> } />
         </Route>
       </Routes>
     </BrowserRouter>

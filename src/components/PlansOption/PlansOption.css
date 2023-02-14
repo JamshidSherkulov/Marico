@@ -1,0 +1,22 @@
+#plans__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#plans__container > div {
+  width: 30%;
+  height: 600px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+
+#plans__container div,
+#plans__container h1,
+#plans__container h2,
+#plans__container p,
+#plans__container span {
+  background-color: #131313;
+}

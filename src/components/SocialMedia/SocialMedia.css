@@ -1,0 +1,15 @@
+#socialMedia__conatiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#socialMedia__conatiner > div {
+    width: 30%;
+    height: 150px;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
