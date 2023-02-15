@@ -57,7 +57,7 @@ const blogArray = [
     id: 10,
     title: "Instagram",
     descprition: `Connect your Instagram feed to your Marico homepage.`,
-    img_url: "./images/Shape_logo.png",
+    img_url: "./images/Shape.png",
   },
   {
     id: 11,
@@ -69,7 +69,7 @@ const blogArray = [
     id: 12,
     title: "Fackbook",
     descprition: `Connect your Fackbook feed to your Marico homepage.`,
-    img_url: "./images/Fackbook_logo.png",
+    img_url: "./images/Facebook_logo.png",
   },
 ];
 
